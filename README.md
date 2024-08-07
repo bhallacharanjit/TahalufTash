@@ -15,6 +15,7 @@ Swift 5.0+
 Realm
 
 **Architecture**
+
 The application is organized using the VIPER architecture, which promotes separation of concerns and modularity.
 
 **View:** Displays data and relays user interactions to the presenter.
@@ -24,16 +25,20 @@ The application is organized using the VIPER architecture, which promotes separa
 **Router:** Handles navigation between view controllers.
 
 **Installation**
+
 Clone the repository:
 **git clone https://github.com/bhallacharanjit/TahalufTash**
 
 **Install dependencies using CocoaPods:**
+
 pod install
 
 **Open the .xcworkspace file in Xcode:**
+
 open UniversityListingApp.xcworkspace
 
 **Usage**
+
 Build and run the app on a simulator or physical device.
 The app will fetch a list of universities from the API and display them on the listing screen.
 Tapping on a university will navigate to the detail screen, showing the university's details.
@@ -50,12 +55,18 @@ The project includes unit tests for critical parts of the application, including
 Open the project in Xcode.
 Select the UniversityListingApp scheme.
 Press Cmd + U to run the tests.
+
 **Project Structure**
 UniversityListingApp/
+
 │
+
 ├── UniversityListingApp/
+
 │   ├── Listing/
+
 │   │   ├── Interactor/
+
 │   │   ├── Presenter/
 │   │   ├── Router/
 │   │   ├── View/
