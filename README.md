@@ -59,18 +59,15 @@ Press Cmd + U to run the tests.
 **Project Structure**
 UniversityListingApp/
 
-│
-##
-├── UniversityListingApp/
-##
-│   ├── Listing/
-##
-│   │   ├── Interactor/
-│   │   ├── Presenter/
-│   │   ├── Router/
-│   │   ├── View/
-│   │   └── Entity/
-│   │
+│\
+├── UniversityListingApp/\
+│   ├── Listing/\
+│   │   ├── Interactor/\
+│   │   ├── Presenter/\
+│   │   ├── Router/\
+│   │   ├── View/\
+│   │   └── Entity/\
+│   │\
 │   ├── Detail/
 │   │   ├── Interactor/
 │   │   ├── Presenter/
