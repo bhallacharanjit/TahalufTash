@@ -60,13 +60,12 @@ Press Cmd + U to run the tests.
 UniversityListingApp/
 
 │
-
+##
 ├── UniversityListingApp/
-
+##
 │   ├── Listing/
-
+##
 │   │   ├── Interactor/
-
 │   │   ├── Presenter/
 │   │   ├── Router/
 │   │   ├── View/
