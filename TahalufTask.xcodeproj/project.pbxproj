@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782F59A8F6D4769E3E745B49 /* Pods_TahalufTask_TahalufTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347EBAA93335A27090C952E3 /* Pods_TahalufTask_TahalufTaskUITests.framework */; };
+		797ACDA744820A760F5213D0 /* Pods_TahalufTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26B769322F5FC5AADE78927 /* Pods_TahalufTask.framework */; };
+		BB030E8F78E74601BA0E6EDE /* Pods_TahalufTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21618F2D9D04ACF239A7C203 /* Pods_TahalufTaskTests.framework */; };
 		EB3F298F2C634EBB005FADA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F298E2C634EBB005FADA8 /* AppDelegate.swift */; };
 		EB3F29912C634EBB005FADA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29902C634EBB005FADA8 /* SceneDelegate.swift */; };
 		EB3F29932C634EBB005FADA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29922C634EBB005FADA8 /* ViewController.swift */; };
@@ -16,6 +19,20 @@
 		EB3F29A62C634EBD005FADA8 /* TahalufTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29A52C634EBD005FADA8 /* TahalufTaskTests.swift */; };
 		EB3F29B02C634EBD005FADA8 /* TahalufTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29AF2C634EBD005FADA8 /* TahalufTaskUITests.swift */; };
 		EB3F29B22C634EBD005FADA8 /* TahalufTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29B12C634EBD005FADA8 /* TahalufTaskUITestsLaunchTests.swift */; };
+		EB3F29C02C6357FC005FADA8 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29BF2C6357FC005FADA8 /* University.swift */; };
+		EB3F29C22C6359D7005FADA8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29C12C6359D7005FADA8 /* NetworkManager.swift */; };
+		EB3F29C62C635CB5005FADA8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29C52C635CB5005FADA8 /* DatabaseManager.swift */; };
+		EB3F29C82C635D15005FADA8 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29C72C635D15005FADA8 /* ListingViewController.swift */; };
+		EB3F29CA2C635D31005FADA8 /* ListingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29C92C635D31005FADA8 /* ListingInteractor.swift */; };
+		EB3F29CC2C635D4B005FADA8 /* ListingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29CB2C635D4B005FADA8 /* ListingPresenter.swift */; };
+		EB3F29CE2C635D67005FADA8 /* ListingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29CD2C635D67005FADA8 /* ListingEntity.swift */; };
+		EB3F29D02C635D76005FADA8 /* ListingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29CF2C635D76005FADA8 /* ListingRouter.swift */; };
+		EB3F29D22C635DC0005FADA8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29D12C635DC0005FADA8 /* Protocols.swift */; };
+		EB3F29D52C635DFB005FADA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29D42C635DFB005FADA8 /* DetailViewController.swift */; };
+		EB3F29D72C635E24005FADA8 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29D62C635E24005FADA8 /* DetailInteractor.swift */; };
+		EB3F29D92C635E37005FADA8 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29D82C635E37005FADA8 /* DetailPresenter.swift */; };
+		EB3F29DB2C635E48005FADA8 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29DA2C635E48005FADA8 /* DetailRouter.swift */; };
+		EB3F29DD2C6376AE005FADA8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = EB3F29DC2C6376AE005FADA8 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21618F2D9D04ACF239A7C203 /* Pods_TahalufTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29558F6C69B57D7453DD3E64 /* Pods-TahalufTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTask.debug.xcconfig"; path = "Target Support Files/Pods-TahalufTask/Pods-TahalufTask.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC9CC299EDCB5B31F3CAA22 /* Pods-TahalufTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TahalufTaskTests/Pods-TahalufTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		347EBAA93335A27090C952E3 /* Pods_TahalufTask_TahalufTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTask_TahalufTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC270F1FEF256B1910EC981 /* Pods-TahalufTask-TahalufTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTask-TahalufTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TahalufTask-TahalufTaskUITests/Pods-TahalufTask-TahalufTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A26B769322F5FC5AADE78927 /* Pods_TahalufTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6F04EE8255138806630AD4 /* Pods-TahalufTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTask.release.xcconfig"; path = "Target Support Files/Pods-TahalufTask/Pods-TahalufTask.release.xcconfig"; sourceTree = "<group>"; };
 		EB3F298B2C634EBB005FADA8 /* TahalufTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TahalufTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3F298E2C634EBB005FADA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB3F29902C634EBB005FADA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,22 @@
 		EB3F29AB2C634EBD005FADA8 /* TahalufTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TahalufTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3F29AF2C634EBD005FADA8 /* TahalufTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahalufTaskUITests.swift; sourceTree = "<group>"; };
 		EB3F29B12C634EBD005FADA8 /* TahalufTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahalufTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB3F29BF2C6357FC005FADA8 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		EB3F29C12C6359D7005FADA8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB3F29C52C635CB5005FADA8 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		EB3F29C72C635D15005FADA8 /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		EB3F29C92C635D31005FADA8 /* ListingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractor.swift; sourceTree = "<group>"; };
+		EB3F29CB2C635D4B005FADA8 /* ListingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresenter.swift; sourceTree = "<group>"; };
+		EB3F29CD2C635D67005FADA8 /* ListingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingEntity.swift; sourceTree = "<group>"; };
+		EB3F29CF2C635D76005FADA8 /* ListingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingRouter.swift; sourceTree = "<group>"; };
+		EB3F29D12C635DC0005FADA8 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		EB3F29D42C635DFB005FADA8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EB3F29D62C635E24005FADA8 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		EB3F29D82C635E37005FADA8 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		EB3F29DA2C635E48005FADA8 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		EB3F29DC2C6376AE005FADA8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		F308EAB34A5C55AF89C5FDF9 /* Pods-TahalufTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TahalufTaskTests/Pods-TahalufTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB739FAD3221F8BC0C7FE6A /* Pods-TahalufTask-TahalufTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTask-TahalufTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TahalufTask-TahalufTaskUITests/Pods-TahalufTask-TahalufTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797ACDA744820A760F5213D0 /* Pods_TahalufTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB030E8F78E74601BA0E6EDE /* Pods_TahalufTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +112,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782F59A8F6D4769E3E745B49 /* Pods_TahalufTask_TahalufTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61486DA3C07EB599B8530D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29558F6C69B57D7453DD3E64 /* Pods-TahalufTask.debug.xcconfig */,
+				AA6F04EE8255138806630AD4 /* Pods-TahalufTask.release.xcconfig */,
+				3CC270F1FEF256B1910EC981 /* Pods-TahalufTask-TahalufTaskUITests.debug.xcconfig */,
+				FEB739FAD3221F8BC0C7FE6A /* Pods-TahalufTask-TahalufTaskUITests.release.xcconfig */,
+				F308EAB34A5C55AF89C5FDF9 /* Pods-TahalufTaskTests.debug.xcconfig */,
+				2AC9CC299EDCB5B31F3CAA22 /* Pods-TahalufTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		844D6717E98EDECFB016E786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26B769322F5FC5AADE78927 /* Pods_TahalufTask.framework */,
+				347EBAA93335A27090C952E3 /* Pods_TahalufTask_TahalufTaskUITests.framework */,
+				21618F2D9D04ACF239A7C203 /* Pods_TahalufTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB3F29822C634EBB005FADA8 = {
 			isa = PBXGroup;
 			children = (
+				EB3F29DC2C6376AE005FADA8 /* Readme.md */,
 				EB3F298D2C634EBB005FADA8 /* TahalufTask */,
 				EB3F29A42C634EBD005FADA8 /* TahalufTaskTests */,
 				EB3F29AE2C634EBD005FADA8 /* TahalufTaskUITests */,
 				EB3F298C2C634EBB005FADA8 /* Products */,
+				61486DA3C07EB599B8530D30 /* Pods */,
+				844D6717E98EDECFB016E786 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +168,8 @@
 		EB3F298D2C634EBB005FADA8 /* TahalufTask */ = {
 			isa = PBXGroup;
 			children = (
+				EB3F29D32C635DE8005FADA8 /* DetailsModule */,
+				EB3F29BE2C634EED005FADA8 /* ModuleA */,
 				EB3F298E2C634EBB005FADA8 /* AppDelegate.swift */,
 				EB3F29902C634EBB005FADA8 /* SceneDelegate.swift */,
 				EB3F29922C634EBB005FADA8 /* ViewController.swift */,
@@ -106,6 +177,9 @@
 				EB3F29972C634EBD005FADA8 /* Assets.xcassets */,
 				EB3F29992C634EBD005FADA8 /* LaunchScreen.storyboard */,
 				EB3F299C2C634EBD005FADA8 /* Info.plist */,
+				EB3F29C12C6359D7005FADA8 /* NetworkManager.swift */,
+				EB3F29C52C635CB5005FADA8 /* DatabaseManager.swift */,
+				EB3F29D12C635DC0005FADA8 /* Protocols.swift */,
 			);
 			path = TahalufTask;
 			sourceTree = "<group>";
@@ -127,6 +201,30 @@
 			path = TahalufTaskUITests;
 			sourceTree = "<group>";
 		};
+		EB3F29BE2C634EED005FADA8 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F29BF2C6357FC005FADA8 /* University.swift */,
+				EB3F29C72C635D15005FADA8 /* ListingViewController.swift */,
+				EB3F29C92C635D31005FADA8 /* ListingInteractor.swift */,
+				EB3F29CB2C635D4B005FADA8 /* ListingPresenter.swift */,
+				EB3F29CD2C635D67005FADA8 /* ListingEntity.swift */,
+				EB3F29CF2C635D76005FADA8 /* ListingRouter.swift */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		EB3F29D32C635DE8005FADA8 /* DetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F29D42C635DFB005FADA8 /* DetailViewController.swift */,
+				EB3F29D62C635E24005FADA8 /* DetailInteractor.swift */,
+				EB3F29D82C635E37005FADA8 /* DetailPresenter.swift */,
+				EB3F29DA2C635E48005FADA8 /* DetailRouter.swift */,
+			);
+			path = DetailsModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB3F29B52C634EBD005FADA8 /* Build configuration list for PBXNativeTarget "TahalufTask" */;
 			buildPhases = (
+				3A1910413056D0C4B6390CFF /* [CP] Check Pods Manifest.lock */,
 				EB3F29872C634EBB005FADA8 /* Sources */,
 				EB3F29882C634EBB005FADA8 /* Frameworks */,
 				EB3F29892C634EBB005FADA8 /* Resources */,
+				653888872519D42C70872BAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB3F29B82C634EBD005FADA8 /* Build configuration list for PBXNativeTarget "TahalufTaskTests" */;
 			buildPhases = (
+				7500670A5C5D81AA443689C4 /* [CP] Check Pods Manifest.lock */,
 				EB3F299D2C634EBD005FADA8 /* Sources */,
 				EB3F299E2C634EBD005FADA8 /* Frameworks */,
 				EB3F299F2C634EBD005FADA8 /* Resources */,
@@ -169,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB3F29BB2C634EBD005FADA8 /* Build configuration list for PBXNativeTarget "TahalufTaskUITests" */;
 			buildPhases = (
+				7D7BB0C31A2B202789766439 /* [CP] Check Pods Manifest.lock */,
 				EB3F29A72C634EBD005FADA8 /* Sources */,
 				EB3F29A82C634EBD005FADA8 /* Frameworks */,
 				EB3F29A92C634EBD005FADA8 /* Resources */,
+				08A24898588A201349B4BC39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +336,7 @@
 			files = (
 				EB3F29982C634EBD005FADA8 /* Assets.xcassets in Resources */,
 				EB3F299B2C634EBD005FADA8 /* Base in Resources */,
+				EB3F29DD2C6376AE005FADA8 /* Readme.md in Resources */,
 				EB3F29962C634EBB005FADA8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +357,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A24898588A201349B4BC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TahalufTask-TahalufTaskUITests/Pods-TahalufTask-TahalufTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TahalufTask-TahalufTaskUITests/Pods-TahalufTask-TahalufTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TahalufTask-TahalufTaskUITests/Pods-TahalufTask-TahalufTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1910413056D0C4B6390CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TahalufTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653888872519D42C70872BAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TahalufTask/Pods-TahalufTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TahalufTask/Pods-TahalufTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TahalufTask/Pods-TahalufTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7500670A5C5D81AA443689C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TahalufTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7BB0C31A2B202789766439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TahalufTask-TahalufTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB3F29872C634EBB005FADA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3F29D52C635DFB005FADA8 /* DetailViewController.swift in Sources */,
+				EB3F29DB2C635E48005FADA8 /* DetailRouter.swift in Sources */,
+				EB3F29D02C635D76005FADA8 /* ListingRouter.swift in Sources */,
 				EB3F29932C634EBB005FADA8 /* ViewController.swift in Sources */,
+				EB3F29C02C6357FC005FADA8 /* University.swift in Sources */,
+				EB3F29D22C635DC0005FADA8 /* Protocols.swift in Sources */,
+				EB3F29C62C635CB5005FADA8 /* DatabaseManager.swift in Sources */,
+				EB3F29C22C6359D7005FADA8 /* NetworkManager.swift in Sources */,
+				EB3F29C82C635D15005FADA8 /* ListingViewController.swift in Sources */,
+				EB3F29D92C635E37005FADA8 /* DetailPresenter.swift in Sources */,
+				EB3F29CC2C635D4B005FADA8 /* ListingPresenter.swift in Sources */,
 				EB3F298F2C634EBB005FADA8 /* AppDelegate.swift in Sources */,
 				EB3F29912C634EBB005FADA8 /* SceneDelegate.swift in Sources */,
+				EB3F29D72C635E24005FADA8 /* DetailInteractor.swift in Sources */,
+				EB3F29CA2C635D31005FADA8 /* ListingInteractor.swift in Sources */,
+				EB3F29CE2C635D67005FADA8 /* ListingEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +657,13 @@
 		};
 		EB3F29B62C634EBD005FADA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29558F6C69B57D7453DD3E64 /* Pods-TahalufTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TahalufTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,11 +686,13 @@
 		};
 		EB3F29B72C634EBD005FADA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F04EE8255138806630AD4 /* Pods-TahalufTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TahalufTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +715,7 @@
 		};
 		EB3F29B92C634EBD005FADA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F308EAB34A5C55AF89C5FDF9 /* Pods-TahalufTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +735,7 @@
 		};
 		EB3F29BA2C634EBD005FADA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC9CC299EDCB5B31F3CAA22 /* Pods-TahalufTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +755,7 @@
 		};
 		EB3F29BC2C634EBD005FADA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC270F1FEF256B1910EC981 /* Pods-TahalufTask-TahalufTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +773,7 @@
 		};
 		EB3F29BD2C634EBD005FADA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB739FAD3221F8BC0C7FE6A /* Pods-TahalufTask-TahalufTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
