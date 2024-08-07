@@ -1,9 +1,6 @@
 **University Listing App**
 A simple iOS application demonstrating the use of VIPER architecture to list and display details of universities using data fetched from an API. The app includes offline support by caching data in a local Realm database.
 
-**University Listing App**
-A simple iOS application demonstrating the use of VIPER architecture to list and display details of universities using data fetched from an API. The app includes offline support by caching data in a local Realm database.
-
 **Features**
 Listing Screen: Fetches and displays a list of universities from an API, caches data locally.
 Detail Screen: Displays details of a selected university, allows refreshing the listing.
