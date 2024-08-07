@@ -68,20 +68,20 @@ UniversityListingApp/
 │   │   ├── View/\
 │   │   └── Entity/\
 │   │\
-│   ├── Detail/
-│   │   ├── Interactor/
-│   │   ├── Presenter/
-│   │   ├── Router/
-│   │   ├── View/
-│   │   └── Entity/
-│   │
-│   ├── Network/
-│   ├── Database/
-│   └── Resources/
-│
-├── UniversityListingAppTests/
-│
-└── Podfile
+│   ├── Detail/\
+│   │   ├── Interactor/\
+│   │   ├── Presenter/\
+│   │   ├── Router/\
+│   │   ├── View/\
+│   │   └── Entity/\
+│   │\
+│   ├── Network/\
+│   ├── Database/\
+│   └── Resources/\
+│\
+├── UniversityListingAppTests/\
+│\
+└── Podfile\
 
 **Listing Screen:** Fetches and displays a list of universities from an API, caches data locally.
 **Detail Screen:** Displays details of a selected university, allows refreshing the listing.
